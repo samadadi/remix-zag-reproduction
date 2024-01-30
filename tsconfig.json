@@ -1,0 +1,34 @@
+{
+  "include": [
+    "**/*.js",
+    "**/*.ts",
+    "**/*.jsx",
+    "**/*.tsx"
+  ],
+  "typeAcquisition": {
+    "enable": true
+  },
+  "compilerOptions": {
+    "paths": {
+      "~/*": [
+        "app/*"
+      ]
+    },
+    "baseUrl": ".",
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2022"
+    ],
+    "strict": true,
+    "target": "ES2022",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "bundler"
+  }
+}
