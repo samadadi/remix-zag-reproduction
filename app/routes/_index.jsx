@@ -13,7 +13,7 @@ export async function action({ request }) {
   console.log(formData.get("intent"));
 
   /**
-   * If you select just one option from the select component then these outputs are `null`.
+   * If you select multiple options from the select component then these outputs are `null`.
    * But if you select just one option we will get form data.
    */
   console.log(formData.get("frameworks"));
